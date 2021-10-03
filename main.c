@@ -1,7 +1,11 @@
 #include <stdio.h>
+#include "api-std.h"
 
 main () {
   //STUB
-  printf("hello world!");
+  
+  init_provider();
+  
+  printf("%d", get_current_day_max_temp());
 
 }
